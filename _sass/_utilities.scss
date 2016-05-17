@@ -1,0 +1,27 @@
+$base-font-size: 18px;
+$base-font-family: 'futura-pt', sans-serif;
+
+$container-margin: 1rem;
+$container-padding: 1rem;
+
+$margin-large: 2em;
+$margin: 1em;
+$margin-small: .5em;
+
+$padding-large: 2em;
+$padding: 1em;
+$padding-small: .5em;
+
+$black: #323232;
+$black-light: lighten($black, 10%);
+$white: #fefefe;
+$gray-light: darken($white, 10%);
+$gray: darken($white, 20%);
+$gray-dark: darken($white, 30%);
+
+
+@mixin flex($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
