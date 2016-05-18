@@ -113,7 +113,6 @@ a, a:visited {
     padding: 1rem; }
     @media (min-width: 1000px) {
       .main-header a.main-header__title {
-        background-color: #fefefe;
         color: #323232; } }
 
 .main-content {
