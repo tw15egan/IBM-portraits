@@ -3,11 +3,13 @@ layout: default
 ---
 
   <ul class="main-content">
-    {% for post in site.posts %}
+    {% for i in (1..20) %}
       <li class="post">
-        <div class="post__image">
-          <!-- <img src="{{post.featuredImg}}" alt=""> -->
-        </div>
+          <img src="{{site.baseurl}}/img/placeholder.jpg">
+          <div class="post__user">
+            <p class="post__user--name">John Smith</p>
+            <div class="post__user--info">I'm a web developer! I do web things. Blah blah blah blah blah</div>
+          </div>
       </li>
     {% endfor %}
   </ul>
