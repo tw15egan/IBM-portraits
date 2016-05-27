@@ -54,7 +54,7 @@ table {
 html, body {
   height: 100%;
   width: 100%;
-  font-family: "futura-pt", sans-serif; }
+  font-family: "Helvetica Neue", sans-serif; }
 
 a, a:visited {
   text-decoration: none;
@@ -169,6 +169,7 @@ a, a:visited {
         -ms-flex-pack: start;
             justify-content: flex-start;
     font-size: 2rem;
+    font-family: 'Helvetica Neue';
     padding: 1rem; }
     @media (min-width: 1000px) {
       .main-header a.main-header__title {
