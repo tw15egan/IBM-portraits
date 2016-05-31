@@ -1,0 +1,13 @@
+.introduction{
+  font-size: 1.2rem;
+  text-align: center;
+  margin: auto;
+  margin-bottom: $margin-small;
+  max-width: 1200px;
+  @media (max-width: 1285px) {
+      max-width: 800px;
+    }
+  @media (max-width: 831px) {
+      max-width: 400px;
+    }
+}
